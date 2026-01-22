@@ -1,0 +1,177 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background-color: #f6f8fb;
+  color: #0a2540;
+  padding-bottom: 70px;
+}
+
+/* HEADER */
+.header {
+  background: #00811c;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.login {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  background: #00811c;
+  color: #fff;
+  padding: 32px 16px 40px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.hero span {
+  font-weight: 700;
+}
+
+/* SEARCH */
+.search-box {
+  display: flex;
+  max-width: 420px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  padding: 14px 16px;
+  font-size: 1rem;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+.search-box button {
+  background: #00811c;
+  color: #fff;
+  border: none;
+  padding: 0 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* CARD */
+.card {
+  background: #fff;
+  margin: 16px;
+  border-radius: 12px;
+  display: flex;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card-text {
+  flex: 2;
+}
+
+.card-text img {
+  margin-bottom: 8px;
+}
+
+.card-text p {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.badge {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.card-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* CTA */
+.cta {
+  padding: 16px;
+}
+
+.cta-button {
+  width: 100%;
+  padding: 14px;
+  background: #0a2540;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* INFO */
+.info {
+  padding: 16px;
+}
+
+.info h2 {
+  font-size: 1.2rem;
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.bottom-nav a.active {
+  color: #0b74de;
+  font-weight: 600;
+}
+
+/* ACCESSIBILITY */
+button:focus,
+a:focus,
+input:focus {
+  outline: 2px solid #0b74de;
+  outline-offset: 2px;
+}
